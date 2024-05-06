@@ -1,0 +1,583 @@
+/* Universal Style is here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- -------------- */
+
+
+/* header style is here */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82.5%; 
+    height: 600px; 
+    margin: 50px auto 0;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+                        url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-headline {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    font-family: 'Merriweather', serif;
+}
+
+/* -------------------- ------------------- */
+
+
+/* main part  start here */
+
+
+
+/* discount section start here */
+.discount-section {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.discount-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.discount-offer {
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.discount-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 48px 0 16px 0;
+}
+
+.discount-catagories {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+/* discount section end here */
+/* ---------------- ---------------- */
+
+
+/* mid night  party section start here */
+
+.midnight-party-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 130px;
+    border-radius: 16px;
+
+}
+
+
+.welcome-headline {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    font-family: 'Merriweather', serif;
+    width: 642px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin: 24px 0 48px;
+}
+
+.join-now {
+    color: #FFF;
+    background: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    transition: all 0.5s;
+}
+
+.join-now:hover {
+    color: lightcoral;
+}
+
+
+
+/* mid night  party section end here */
+/* ---------------- ---------------- */
+
+
+/* location section start here */
+
+.place-container {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.p-color {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.span {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+
+
+.place-container .place button {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 64px;
+    padding: 16px 32px;
+    border-color: transparent;
+}
+
+/* location section end here */
+
+/* bonus section is start here */
+
+.best-offer-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.celebrate-image {
+    border: 16px solid #F00;
+    border-radius: 50%;
+}
+
+.img img {
+    padding: 49px;
+}
+
+.offer h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 16px 0 16px 0;
+}
+
+.offer p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.happy-new-year h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-new-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 16px 0 43px 0;
+}
+
+/* bonus section is end here */
+
+/* optional */
+.holidays-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto 0;
+}
+
+.holidays {
+    text-align: center;
+}
+
+.holidays h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holidays h3 {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays span{
+    color: #070211;
+}
+
+.holidays p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+/* optional */
+
+
+/* portfolio container style start here */
+
+.portfolio-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto 120px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 16px 0 22px 0;
+}
+
+.portfolio-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.portfolio-gift-container {
+    display: flex;
+    
+    gap: 24px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.portfolio {
+    width: 424px;
+    transition: all 0.5s;
+}
+
+.portfolio:hover {
+    padding: 50px;
+}
+
+.portfolio:hover img {
+    border-radius: 100px;
+}
+
+
+
+/* portfolio container style end here */
+/* -------------------- --------------------- */
+
+
+/* subscribe container style start here */
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto 120px;
+}
+
+.subscribe img {
+    width: 130px;
+    height: 130px;
+}
+
+.subscribe-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 40px 0 22px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.form {
+    margin-top: 50px;
+    position: relative;
+}
+
+input[type="email"] {
+    width: 648px;
+    height: 72px;
+    padding: 25px 30px;
+    background: #FFF;
+    border-color: transparent;
+    border-radius: 50px 0 0 50px;
+}
+
+input[type="email"]::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form input[type="submit"] {
+    position: absolute;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 25px 56px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* subscribe container style end here */
+/* ----------------- ------------------- */
+
+
+/* main style end */
+/* ----------------- ---------------- */
+
+/* footer style start here */
+
+footer {
+    background: #070211;
+
+}
+
+.footer-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+    padding: 120px 0;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.home-address p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+
+
+.footer-container hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+    gap: 24px;
+}
+
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.copyright h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.unsubscribe h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+}
+
+
+.address p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.icon p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+/* footer style end here */
